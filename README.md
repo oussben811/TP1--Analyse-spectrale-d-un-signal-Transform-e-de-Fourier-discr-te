@@ -10,9 +10,10 @@
       de mettre en évidence les différentes composantes périodiques présentes dans le signal d'origine.
       
 ## Objectifs 
-      Représentation de signaux et applications de la transformée de Fourier discrète
+
+   - Représentation de signaux et applications de la transformée de Fourier discrète
       (TFD) sous Matlab. 
-      Evaluation de l’intérêt du passage du domaine temporel au domaine fréquentiel 
+   -  Evaluation de l’intérêt du passage du domaine temporel au domaine fréquentiel 
       dans l’analyse et l’interprétation des signaux physiques réels.
 
  ## Réalisation du TP
