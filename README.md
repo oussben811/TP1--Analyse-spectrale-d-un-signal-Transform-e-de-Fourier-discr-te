@@ -63,19 +63,22 @@
 
  - Partie2 : Analyse fréquentielle du chant du rorqual bleu
  
-      Ce code lit dans un fichier audio appelé 'bluewhale.au' et stocke le signal
-      et la fréquence d'échantillonnage dans les variables 'signal' et 'fs' respectivement. 
-      Ensuite, il extrait une partie du signal d'une plage de temps spécifique et la lit à 
-      l'aide de la fonction "sound". Il définit ensuite le nombre d'échantillons dans le signal
-      extrait comme « N » et calcule le vecteur de temps « t » en multipliant le nombre d'échantillons 
-      par l'intervalle de temps d'échantillonnage.
-      Le code calcule également le vecteur de fréquence 'f' en divisant la fréquence d'échantillonnage
-      par le nombre d'échantillons, et applique la transformée de Fourier discrète (FFT) au signal extrait
-      'chant' et trace l'amplitude au carré du résultat FFT par rapport au vecteur de fréquence 'F'.
         
       ![Screenshot 2023-01-20 144154](https://user-images.githubusercontent.com/78149349/213709620-5aa4e573-42f2-4222-92f5-10b6c9e511a2.png)
       
       ![Screenshot 2023-01-20 144208](https://user-images.githubusercontent.com/78149349/213709685-793f4b76-6015-4450-a361-567fa5e14710.png)
+      
+      Remarque :
+      
+            Ce code lit dans un fichier audio appelé 'bluewhale.au' et stocke le signal
+            et la fréquence d'échantillonnage dans les variables 'signal' et 'fs' respectivement. 
+            Ensuite, il extrait une partie du signal d'une plage de temps spécifique et la lit à 
+            l'aide de la fonction "sound". Il définit ensuite le nombre d'échantillons dans le signal
+            extrait comme « N » et calcule le vecteur de temps « t » en multipliant le nombre d'échantillons 
+            par l'intervalle de temps d'échantillonnage.
+            Le code calcule également le vecteur de fréquence 'f' en divisant la fréquence d'échantillonnage
+            par le nombre d'échantillons, et applique la transformée de Fourier discrète (FFT) au signal extrait
+            'chant' et trace l'amplitude au carré du résultat FFT par rapport au vecteur de fréquence 'F'.
 
   ## Conclusion
   
