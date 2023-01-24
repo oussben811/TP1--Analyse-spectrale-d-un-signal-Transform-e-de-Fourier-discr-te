@@ -1,9 +1,5 @@
-# TP1--Analyse-spectrale-d-un-signal-Transform-e-de-Fourier-discr-te
-## Objectifs 
-      Représentation de signaux et applications de la transformée de Fourier discrète
-      (TFD) sous Matlab. 
-      Evaluation de l’intérêt du passage du domaine temporel au domaine fréquentiel 
-      dans l’analyse et l’interprétation des signaux physiques réels.
+# TP1- Analyse spectrale d’un signalTransformée de Fourier discrète
+
 ## Introduction
       L'analyse spectrale d'un signal consiste à décomposer un signal temporel en
       une somme de signaux périodiques de fréquences différentes. 
@@ -12,6 +8,13 @@
       temporelle d'un signal à une représentation fréquentielle, où chaque fréquence 
       est associée à un coefficient complexe. Cette représentation fréquentielle permet 
       de mettre en évidence les différentes composantes périodiques présentes dans le signal d'origine.
+      
+## Objectifs 
+      Représentation de signaux et applications de la transformée de Fourier discrète
+      (TFD) sous Matlab. 
+      Evaluation de l’intérêt du passage du domaine temporel au domaine fréquentiel 
+      dans l’analyse et l’interprétation des signaux physiques réels.
+
  ## Réalisation du TP
  - Partie1 : Représentation temporelle et fréquentielle
  
